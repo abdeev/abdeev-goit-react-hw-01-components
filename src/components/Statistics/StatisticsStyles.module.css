@@ -1,0 +1,25 @@
+.statistics {
+  width: 400px;
+  margin: 20px auto;
+  background-color: azure;
+}
+.title {
+  font-size: 38px;
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
+}
+.stat_list {
+  display: flex;
+  border: 1px solid #111;
+}
+.item:not(:last-child) {
+  border-right: 1px solid #111;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+}

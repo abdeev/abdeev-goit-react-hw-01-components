@@ -1,0 +1,22 @@
+.table_transaction {
+  width: 350px;
+  margin: 20px auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+}
+.table_head {
+  background-color: rgb(14, 151, 182);
+}
+.table_row:nth-child(2n) {
+  height: 30px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.table_row:nth-child(2n + 1) {
+  height: 30px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}

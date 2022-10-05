@@ -1,16 +1,19 @@
+import { Profile } from "./Profile/Profile.jsx";
+import user from '../data/user.json';
+import { Statistics } from "./Statistics/Statistics.jsx";
+import data from '../data/data.json';
+import { FriendList } from './FriendList/FriendList.jsx'
+import { TransactionHistory } from "./Transactions/Transactions.jsx";
+
+const title = "Upload stats"
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div  className="app_conatiner">
+      {Profile(user)}
+      {Statistics(title, data)}
+      {FriendList}
+      {TransactionHistory()}
     </div>
   );
 };
