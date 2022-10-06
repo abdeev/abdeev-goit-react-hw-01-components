@@ -20,7 +20,6 @@ export const App = () => {
   );
 };
 
-
 transactions.propTypes = {
 id: PropTypes.string,
 type: PropTypes.string,
