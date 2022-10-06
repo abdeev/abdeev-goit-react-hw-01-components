@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from 'prop-types';
 import css from './FriendsStyles.module.css';
 
 export const FriendsListItem = ({avatar, name, isOnline, id}) => {
